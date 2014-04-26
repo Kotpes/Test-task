@@ -1,0 +1,211 @@
+@font-face {
+	font-family: BebasNeue;
+	src: url( 'bebas-neue/BebasNeue.otf' );
+}
+body {
+	font-family: 'BebasNeue';
+	color: #575756;
+}
+.content .col-xs-12 {
+	width: 385px;
+	
+}
+/** FULL WIDTH BACKGROUND PICTURE **/
+#bg {
+  z-index: -999;
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: url(../img/bg.png);
+  background-size: cover;
+}
+.content {
+	margin-top: 20px;
+	padding: 0 30px 0 30px;
+}
+
+.logo img {
+	width: 40%;
+}
+.challenge-form {
+	width: 100%;
+	height: 500px;
+	background-color: #E9EAEC;
+	margin-top: 50px;
+}
+h1 {
+	
+	text-align: center;
+	position: relative;
+	top: -17px;
+
+}
+h1 span {
+	color: #E87E1B;
+}
+.challenge-form  {
+ 	padding: 0 30px 0 30px;
+}
+#form p {
+	font-size: 1.5em;
+	padding: 0;
+}
+#form #underline {
+	position: absolute;
+	display: block;
+	font-size: 0.6em;
+	left: 132px;
+}
+#form .center {
+	width: 70%;
+	margin: 40px auto 0 auto;
+}
+.center button {
+	color: #575756;
+	background-color: transparent;
+	border: 1px solid #575756;
+}
+.center button:focus {
+	outline: none;
+	box-shadow: none;
+}
+#form input {
+	position: relative;
+	background-color: transparent;
+	box-shadow: none;
+	border: none;
+	border-bottom: 0.05em solid #575756;
+	height: 1.25em;
+	margin: 0 3px 0 2px;
+	padding: 0px 0 0px 10px;
+	color: #E87E1B;
+}
+#form input:focus {
+	box-shadow: none;
+	outline: none;
+	padding-bottom: 0;
+	padding-left: 10px;
+}
+#myName {
+	width: 220px;
+}
+#buddyName {
+	width: 186px;
+	  display: table-cell; 
+	  vertical-align: middle;
+}
+#buddyEmail {
+	width: 170px;
+}
+#thingToDo {
+	width: 188px;
+}
+#PS {
+	width: 265px;
+}
+#yourName {
+	width: 213px;
+}
+#yourEmail {
+	width: 211px;
+}
+#form .ps {
+	padding-bottom: 38px;
+	border-bottom: 1px dotted #575756;
+	border-bottom-width: 3px;
+	margin-bottom: 26px;
+}
+.info {
+	text-align: justify;
+	margin-top: 20px;
+	font-size: 0.8em;
+}
+
+@media (max-width: 767px) {
+	.content .col-xs-12 {
+		margin: 0 auto;
+		float: none;
+	}
+}
+
+@media (max-width: 415px) {
+	.content .col-xs-12 {
+		width: 340px;
+		padding: 0;
+	}	
+
+	#myName {
+		width: 207px;
+	}
+	#buddyName {
+		width: 171px;
+	}
+	#buddyEmail {
+		width: 156px;
+	}
+	#thingToDo {
+		width: 173px;
+	}
+	#PS {
+		width: 251px;
+	}
+	#yourName {
+		width: 198px;
+	}
+	#yourEmail {
+		width: 196px;
+	}	
+}
+@media (max-width: 400px) {
+	#myName {
+		width: 205px;
+	}
+}
+@media (max-width: 370px) {
+	.content .col-xs-12 {
+		width: 290px;
+	}
+	.challenge-form {
+		padding: 0 20px 0 20px;
+		
+	}
+	#myName {
+		width: 177px;
+	}
+	#buddyName {
+		width: 141px;
+	}
+	#buddyEmail {
+		width: 126px;
+	}
+	#thingToDo {
+		width: 143px;
+	}
+	#PS {
+		width: 222px;
+	}
+	#yourName {
+		width: 168px;
+	}
+	#yourEmail {
+		width: 166px;
+	}	
+	#form #underline {
+		left: 110px;
+	}
+	h1 {
+		font-size: 34px;
+	}
+}
+
+
+
+
+
+
+
+
